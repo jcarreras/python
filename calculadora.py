@@ -18,9 +18,10 @@ while(opcio!=0):
             4. Dividir
             0. Sortir
             """)
+            opcio2=input("Seleccioni l'opció que vulgui: ")
             a = int(input("Indiqui el primer operand: "))
             b = int(input("Indiqui el segon operand: "))
-            match opcio:
+            match opcio2:
                 case "1":
                     c=a+b
                     print("La suma de ",a," més ",b," és ",c)
@@ -46,9 +47,10 @@ while(opcio!=0):
             4. Dividir
             0. Sortir
             """)
+            opcio2=input("Seleccioni l'opció que vulgui: ")
             a = float(input("Indiqui el primer operand: "))
             b = float(input("Indiqui el segon operand: "))
-            match opcio:
+            match opcio2:
                 case "1":
                     c=a+b
                     print("La suma de ",a," més ",b," és ",c)
@@ -74,8 +76,9 @@ while(opcio!=0):
             4. Donat un hexadecimal passar a binari, octal i decimal.
             0. Sortir
             """)
+            opcio2=input("Seleccioni l'opció que vulgui: ")
             a = input("Indiqui el número a convertir: ")
-            match opcio:
+            match opcio2:
                 case "1": # Binari a 
                     b=int(a,base=8)
                     c=int(a,base=10)
